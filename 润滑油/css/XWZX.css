@@ -1,0 +1,62 @@
+.bodyer{
+	width: 1200px;
+	height: 1000px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.bodyer1 p{
+	color: #666666;
+	font-size: 16px;
+	margin-left:20px;
+}
+.bodyer1 p a{
+	color: #666666;
+	font-size: 16px;
+}
+.bodyer1 p a:hover{
+	color: blue;
+}
+.bodyer2{
+	width: 960px;
+	height: 940px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.bodyer h3{
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	border-bottom: dashed 1px #949393;
+    color: #005FAF;
+	text-align: center;
+}
+.bodyer2 p{
+	text-align: left;
+    font-size: 13px;
+    line-height: 170%;
+    color: #6C6C6C;
+    margin-top: 25px;
+    /*文字开头代替字符*/
+    text-indent: 2em;
+}
+.bodyer2 p img{
+	display: block;
+	margin:  0 auto;
+}
+.span01 a{
+	font-size: 13px;
+    color: #6C6C6C;
+}
+.span01 a{
+	font-size: 13px;
+    color: #6C6C6C;
+}
+.span01{
+	display: block;
+	float: left;
+}
+.span02{
+	display: block;
+	float: right;
+}
+

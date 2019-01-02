@@ -1,0 +1,72 @@
+.header{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top :25px; 
+}
+.st{
+    width: 100%;
+    height: 537px;
+    background: url(../img/loginChoicen.png) no-repeat;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.bx{
+	width: 1200px;
+	padding-top: 55px;
+	margin: 0 auto;
+}
+.bx h2{
+	width: 778px;
+    height: 60px;
+    background: url(../img/logtitleH2.png) no-repeat;
+    margin: 0 auto;
+}
+.bx1{
+	width: 778px;
+	height: 348px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.fl,.fr{
+	width: 352px;
+	height: 348px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.bx1 div img{
+	display: block;
+    width: 352px;
+    height: 164px;
+}
+.bx1 div a{
+	display: block;
+	width: 350px;
+    height: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "微软雅黑";
+    text-decoration: none;
+    cursor: pointer;
+}
+.km{
+	background: url(../img/activityLanred.png)no-repeat;
+}
+.cg{
+	background: url(../img/activityLanhover.png)no-repeat;
+}
+.km:hover{
+	background: url(../img/activityLanredhover.png)no-repeat;
+}
+.cg:hover{
+	background: url(../img/activityLan.png)no-repeat;
+}

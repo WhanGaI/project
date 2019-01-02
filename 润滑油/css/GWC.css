@@ -1,0 +1,180 @@
+.nr{
+	width: 1200px;
+	/*height: 980px;*/
+	margin:  0 auto;
+}
+.SY_gwc{
+	font-size: 16px;
+	color: #666666;
+	padding-left: 15px;
+}
+.SY_gwc a{
+	font-size: 16px;
+	color: #666666;
+}
+.SY_gwc a:hover{
+	color: blue;
+}
+.bjt{
+	width: 1200px;
+	height: 300px;
+	background: url(../img/conBanner.png)no-repeat;
+}
+.nr p,div{
+	margin-top: 15px;
+}
+.nr .BT{
+	width: 1200px;
+	height: 35px;
+}
+.BT span{
+	display: block;
+	width: 115px;
+	height: 35px;
+	background: #005BAA;
+	line-height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #FFFFFF;
+	
+}
+.qx{
+	width: 1200px;
+	height: 30px;
+	line-height: 30px;
+}
+.qx1 input{
+	float: left;
+	cursor: pointer;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+.qx1 span{
+	float: left;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.qx2 input{
+	float: right;
+	width: 110px;
+	height: 30px;
+	border: none;
+	background: url(../img/emptySpan.jpg) no-repeat;
+	cursor: pointer;
+}
+.BG{
+	width: 1182px;
+	/*height: 520px;*/
+	border: solid 1px #BBB4B4;
+    padding: 8px 8px;
+}
+.BG_table tr td,tr th{
+	border: solid 1px #BBB4B4;
+	border-collapse: collapse;
+	
+}
+.BG_table tr th{
+	height: 33px;
+	color: #FFFFFF;
+	background: #999999;
+	text-align: center;
+	line-height: 33px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.tr00 td{
+	height: 120px;
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+}
+.www img{
+	width: 90px;
+	height: 90px;
+}
+.www input{
+	float: left;
+	margin:40px 10px 0 8px;
+}
+.www img{
+	float: left;
+}
+.www span{
+	display: block;
+	margin: 10px 12px 0 130px;
+}
+.tr00 td a{
+	cursor: pointer;
+}
+.yx{
+	float: right;
+	height: 30px;
+	line-height: 15px;
+	font-size: 16px;
+}
+.tr11_an{
+	margin: 15px -5px 0 8px;
+	
+}
+.tr11_qx,.tr11_sc{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 15px;
+}
+.yx span{
+	margin-right: 40px;
+}
+.yx span b{
+	color: red;
+}
+.dibu{
+	padding: 0 20px 70px 20px;
+}
+.dibu a{
+	width: 183px;
+	height: 50px;
+}
+.dibu_1{
+	float: left;
+	background: url(../img/immedOrder.png) no-repeat top;
+}
+.dibu_2{
+	float: right;
+	background: url(../img/immedOrder.png) no-repeat bottom;
+}
+#jian,#jia{
+	width: 25px;
+    height: 25px;
+    line-height: 15px;
+    border: solid 1px #CDCDCD;
+    background-color: #fff;
+}
+#geshu{
+    width: 55px;
+    height: 25px;
+    border: solid 1px #CDCDCD;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

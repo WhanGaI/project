@@ -1,0 +1,127 @@
+.st{
+	width: 1200px;
+	height: 1400px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.st01{
+	font-size: 16px;
+	color: #666666;
+	margin-left: 15px;
+}
+.st01 a{
+	font-size: 16px;
+	color: #666666;
+}
+.st01 a:hover{
+	color: blue;
+}
+.st02{
+	width: 1200px;
+	height: 300px;
+	margin-top: 15px;
+	background: url(../img/conBanner.png)no-repeat;
+}
+.st03{
+	width: 1200px;
+	height: 130px;
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 15px;
+}
+.st03 p{
+	color: #3d1b1b;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.st04{
+	width: 1200px;
+	height: 35px;
+	margin-top: 5px;
+}
+.st04 span{
+	display: block;
+	width: 114px;
+	height: 34px;
+	line-height: 34px;
+	color: #FFFFFF;
+	background: #005BAA;
+	text-align: center;
+	font-size: 16px;
+}
+.st05{
+	width: 1198px;
+	height: 825px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border: solid 1px #BBB4B4;
+    padding-top: 10px;
+}
+.st0501_p1{
+	height: 30px;
+    line-height: 30px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+	background: #DEDFDF;
+	padding-left: 23px;
+	margin-bottom: 8px;
+}
+.st0501 p{
+	width: 1200px;
+	height: 25px;
+	font-size: 14px;
+	font-weight: 25px;
+	padding-left: 23px;
+}
+.st0501 table{
+	width: 1180px;
+	height: 136px;
+	border: solid 1px #BBB4B4;
+	margin:10px 0 0 8px;
+	text-align: center;
+}
+.st0501 table tr th{
+	border: solid 1px #BBB4B4;
+	height: 33px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #999999;
+	text-align: center;
+}
+.st0501 table tr td{
+	border: solid 1px #BBB4B4;
+	font-size: 14px;
+}
+.st0502{
+	height: 115px;
+	padding: 0 70px 50px 0;
+	margin-top: 10px;
+	background: #DFDFDF;
+}
+.st0502_dd{
+	width: 265px;
+	height: 115px;
+	float: right;
+}
+.dd01{
+	border-bottom: 1px solid #BBB4B4;
+	padding-top: 35px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 16px;
+}
+.dd01 p{
+	line-height: 23px;
+}
+.dd02{
+	margin-top: 5px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+.dd02 span{
+	color: #0066CC;
+}
