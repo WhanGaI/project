@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</body>
+</html>
+<script type="text/javascript">
+	
+	let arr =[
+		{pName: "上衣",price :998},
+		{pName: "裤子",price :222},
+		{pName: "卫衣",price :333},
+		{pName: "毛衣",price :44},
+		{pName: "化妆品",price :2222},
+		{pName: "洗面奶",price :11111},
+		{pName: "洗头膏",price :2222222},
+	];
+	
+	let result = arr.filter(function(item){
+		if(item.price >998){
+			return true;
+		}else{
+			return false;
+		}
+	});
+	
+	console.log(result);
+	let aLi = document.getElementsByTagName("li");
+	for(let i= 0;i<aLi.length;i++){
+		aLi[i].innerHTML = result[i].pName;
+	}
+	
+</script>

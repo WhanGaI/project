@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p>98</p>
+		<p>99</p>
+		<p>100</p>
+		<p>101</p>
+		<p>102</p>
+		<p>103</p>
+		<p>104</p>
+		<p>105</p>
+		<p>106</p>
+		<p>107</p>
+		<p>108</p>
+		<p>109</p>
+	</body>
+</html>
+<script type="text/javascript">
+	
+	/*let aLi = document.querySelectorAll("p");
+	let arr = Array.from(aLi);
+	let result = arr.filter(function(item){
+//		判断大于二位数 小于四位数
+		if(item.textContent.length>2 && item.textContent.length<4){
+			return true;
+		}
+	});
+	result.forEach(function(item,index){
+		item.onclick=function(){
+			alert(this.innerHTML)
+		}
+	})*/
+	
+	/*
+	let aLi =document.querySelectorAll("p");
+	let arr = Array.from(aLi);
+	let result = arr.filter(function(item){
+		if(item.textContent.length>2 && item.textContent.length<4){
+			return true;
+		}
+	});
+	
+	result.forEach(function (item,index){
+		item.onclick = function(){
+			alert(this.innerHTML);
+		}
+	})
+	*/
+	
+	let aLi = document.querySelectorAll("p");
+	let arr = Array.from(aLi);
+	let result = arr.filter(function(item){
+		if(item.textContent.length>2 && item.textContent.length<4){
+			return true;
+		}
+	});
+	
+	result.forEach(function(item,index){
+		item.onclick = function(){
+			alert(this.innerHTML);
+		}
+	})
+	
+	
+	
+	
+</script>
