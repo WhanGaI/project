@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript">
+	
+	let result = new Promise(function(resolve,reject){
+		$.ajax({
+			url : "https://resources.ninghao.net/wxapp-case/db.json",
+			success : function(response){
+				console.log(response)
+			},
+			error : function(err){
+				console.log(err);
+			}
+		});
+	})
+	
+</script>
