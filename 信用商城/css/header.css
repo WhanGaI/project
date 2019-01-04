@@ -1,0 +1,36 @@
+.header{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+}
+.logo{
+	width: 170px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.logo img{
+	float: left;
+	position: relative;
+	top: -2px;
+}
+.logo p{
+	font-size: 16px;
+	color: #eb340c;
+	font-weight: bold;
+	padding-left: 50px;
+}
+.hyzc{
+	color: #000000;
+	font-size: 24px;
+	float: left;
+	margin-top: 23px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.zh{
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+	font-size: 12px;
+}
