@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+<script type="text/javascript">
+	
+	window.number = 'one';
+	document.number = 'two';
+	
+	var s1 = {number : 'three'};
+	function changeColor(){
+		console.log(this.number); //输出one
+	}
+	changeColor.apply(this);
+	
+</script>

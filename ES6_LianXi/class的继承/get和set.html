@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+<script type="text/javascript">
+	
+	class Style{
+		constructor(name){
+			this.name = name;
+		}
+		setStyle(element,attr,value){
+			element.style[attr] = value;
+		}
+		
+		get prop(){
+			return this.name;
+		}
+		
+		set prop(a){
+			this.name = a;
+		}
+	}
+	
+	let style = new Style("jack");
+	style.prop = 123;
+	console.log(style.prop);
+	
+	
+</script>

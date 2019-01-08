@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+<script type="text/javascript">
+	
+	window.color = 'red';
+	document.color = "yellow";
+	let boxColor = "purple";
+	let s1 = {color : "green"};
+	
+	function changeColor(){
+		console.log(this.color);  //获取s1的color
+	}
+	changeColor.call(s1);
+	
+</script>
